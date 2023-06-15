@@ -3,7 +3,7 @@ const Telebot = require("telebot");
 const mongo_pass = process.env.MONGO_PASS;
 const mongo_user = process.env.MONGO_USER;
 const bot_token = process.env.BOT_TOKEN;
-const seller_id = "1219272166";
+const seller_id = "1385788110";
 const mongoose = require("mongoose");
 const mongoURI = `mongodb+srv://${mongo_user}:${mongo_pass}@cluster0.6y5kszs.mongodb.net/botDB`;
 
