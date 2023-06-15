@@ -1,0 +1,25 @@
+[debug] [2023-06-15T07:54:11.947Z] ----------------------------------------------------------------------
+[debug] [2023-06-15T07:54:11.949Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\KIIT\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-06-15T07:54:11.949Z] CLI Version:   11.28.0
+[debug] [2023-06-15T07:54:11.950Z] Platform:      win32
+[debug] [2023-06-15T07:54:11.950Z] Node Version:  v18.14.1
+[debug] [2023-06-15T07:54:11.950Z] Time:          Thu Jun 15 2023 13:39:11 GMT+0545 (Nepal Time)
+[debug] [2023-06-15T07:54:11.951Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-06-15T07:54:12.021Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-06-15T07:54:12.021Z] > authorizing via signed-in user (waytoheaven001@gmail.com)
+[debug] [2023-06-15T07:54:12.021Z] [iam] checking project ghar-ki-dukaan-bot for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2023-06-15T07:54:12.024Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/ghar-ki-dukaan-bot:testIamPermissions [none]
+[debug] [2023-06-15T07:54:12.024Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/ghar-ki-dukaan-bot:testIamPermissions x-goog-quota-user=projects/ghar-ki-dukaan-bot
+[debug] [2023-06-15T07:54:12.024Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/ghar-ki-dukaan-bot:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]}
+[debug] [2023-06-15T07:54:13.474Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/ghar-ki-dukaan-bot:testIamPermissions 200
+[debug] [2023-06-15T07:54:13.474Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/ghar-ki-dukaan-bot:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]}
+[debug] [2023-06-15T07:54:13.475Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/ghar-ki-dukaan-bot/serviceAccounts/ghar-ki-dukaan-bot@appspot.gserviceaccount.com:testIamPermissions [none]
+[debug] [2023-06-15T07:54:13.476Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/ghar-ki-dukaan-bot/serviceAccounts/ghar-ki-dukaan-bot@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2023-06-15T07:54:14.899Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/ghar-ki-dukaan-bot/serviceAccounts/ghar-ki-dukaan-bot@appspot.gserviceaccount.com:testIamPermissions 200
+[debug] [2023-06-15T07:54:14.900Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/ghar-ki-dukaan-bot/serviceAccounts/ghar-ki-dukaan-bot@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[info] 
+[info] === Deploying to 'ghar-ki-dukaan-bot'...
+[info] 
+[info] i  deploying functions 
+[info] Running command: node bot.js
